@@ -1,5 +1,19 @@
 body{
 text-align: center;
 font-family: helvetica;
-
+width: 100%;
 }
+#welcome-section{
+  height: 100vh;
+}
+  
+  @media only screen and (max-width: 768px ) {
+    /* For tablets: */
+section{
+    width: 90%;
+}  
+}
+  
+
+
+
