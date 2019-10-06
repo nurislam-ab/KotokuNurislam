@@ -6,12 +6,22 @@ width: 100%;
 #welcome-section{
   height: 100vh;
 }
-  
-  @media only screen and (max-width: 768px ) {
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    top:0;
+    width:100%;
+    z-index:10;
+    position:fixed;
+    color:#be3144;
+}
+
+@media only screen and (max-width: 768px ) {
     /* For tablets: */
-section{
-    width: 90%;
-}  
+    section{
+        width: 90%;
+    }  
 }
   
 
